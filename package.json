@@ -1,0 +1,59 @@
+{
+    "name": "owofarmbot_stable",
+    "version": "0.0.9.4",
+    "updater_version": "1.0.0",
+    "version_note": "Fixed web captcha solver",
+    "description": "Discord OwO farm bot stable with CAPTCHA(BAN) protection",
+    "main": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mid0Hub/owofarmbot_stable.git"
+    },
+    "keywords": [
+        "nodejs",
+        "bot",
+        "selfbot",
+        "selfbot-for-discord",
+        "owo",
+        "owo-bot",
+        "owo-self-bot",
+        "owofarm",
+        "discord-owo-selfbot",
+        "self-owo",
+        "owofarmbot",
+        "owoautofarm",
+        "owobot",
+        "owoautofarmer"
+    ],
+    "author": "Mid0aria",
+    "license": "ISC",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node main.js",
+        "run": "node main.js",
+        "setup": "npm i",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "axios": "^1.9.0",
+        "chalk": "^4.1.2",
+        "discord.js-selfbot-v13": "^3.6.1",
+        "ejs": "^3.1.10",
+        "express": "^5.1.0",
+        "fs-extra": "^11.3.0",
+        "node-notifier": "^10.0.1",
+        "sharp": "^0.34.2",
+        "ws": "^8.18.2",
+        "yargs": "^17.7.2"
+    },
+    "bugs": {
+        "url": "https://github.com/Mid0Hub/owofarmbot_stable/issues"
+    },
+    "homepage": "https://github.com/Mid0Hub/owofarmbot_stable#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.27.0",
+        "eslint": "^9.27.0",
+        "globals": "^16.1.0",
+        "prettier": "^3.5.3"
+    }
+}
